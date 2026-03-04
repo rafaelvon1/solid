@@ -3,6 +3,5 @@ class User():
         self.username =username
         self.email = email
 
-    @staticmethod
-    def members():
-        return ["username1", "username2","team1"]
+    def work(self):
+        raise NotImplementedError

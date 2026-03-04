@@ -6,3 +6,5 @@ class Manager(User):
     @staticmethod
     def members():
         return "voce não tem permissão"
+    def work(self):
+        return "pagando..."

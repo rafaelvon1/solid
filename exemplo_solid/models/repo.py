@@ -4,7 +4,7 @@ class Repo():
         self._name = name
         self._stars = stars
     
-    @property
+    @property 
     def id(self):
         return self._id
     @property
